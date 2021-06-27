@@ -15,8 +15,8 @@ import {
 const INIT_STATE = {
   layoutType: "vertical",
   layoutWidth: "fluid",
-  leftSideBarTheme: "dark",
-  leftSideBarThemeImage: "none",
+  leftSideBarTheme: "light",
+  leftSideBarThemeImage: "img4",
   leftSideBarType: "default",
   topbarTheme: "light",
   isPreloader: false,

@@ -11,9 +11,9 @@ import { Link } from "react-router-dom"
 
 import logo from "../../assets/images/logo.svg"
 import logoLightPng from "../../assets/images/logo-light.png"
-import logoLightSvg from "../../assets/images/logo-sm-light.svg"
+import logoLightSvg from "../../assets/images/veitHonglogo.jpg"
 import logoDark from "../../assets/images/logo-dark.png"
-import LogoRFSedit from "../../assets/images/Logo-RFS-edit.png"
+import LogoRFSedit from "../../assets/images/veitHonglogo.jpg"
 
 const Sidebar = props => {
 
@@ -23,19 +23,23 @@ const Sidebar = props => {
         <div className="navbar-brand-box">
           <Link to="/" className="logo logo-dark">
             <span className="logo-sm">
-              <img src={logo} alt="" height="22" />
+              {/* <img src={logo} alt="" height="22" /> */}
+              <img src={logoLightSvg} alt="" height="30" style={{marginLeft:'-5px'}}/>
             </span>
             <span className="logo-lg">
-              <img src={logoDark} alt="" height="17" />
+              {/* <img src={logoDark} alt="" height="17" /> */}
+              <img src={LogoRFSedit} alt="" height="50" />
             </span>
           </Link>
 
           <Link to="/" className="logo logo-light" >
             <span className="logo-sm" >
-              <img src={logoLightSvg} alt="" height="20" style={{marginLeft:'-10px'}}/>
+              {/* <img src={logoLightSvg} alt="" height="20" style={{marginLeft:'-10px'}}/> */}
+              <img src={logoLightSvg} alt="" height="30" style={{marginLeft:'-5px'}}/>
             </span>
             <span className="logo-lg">
-              <img src={LogoRFSedit} alt="" height="30" />
+              {/* <img src={LogoRFSedit} alt="" height="30" /> */}
+              <img src={LogoRFSedit} alt="" height="50" />
             </span>
           </Link>
         </div>
